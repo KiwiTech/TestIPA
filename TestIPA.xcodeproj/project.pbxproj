@@ -20,8 +20,6 @@
 		D3CE174418B34DB200414807 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CE174318B34DB200414807 /* XCTest.framework */; };
 		D3CE174518B34DB200414807 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CE172118B34DB100414807 /* Foundation.framework */; };
 		D3CE174618B34DB200414807 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CE172518B34DB100414807 /* UIKit.framework */; };
-		D3CE174E18B34DB200414807 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3CE174C18B34DB200414807 /* InfoPlist.strings */; };
-		D3CE175018B34DB200414807 /* TestIPATests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CE174F18B34DB200414807 /* TestIPATests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +51,6 @@
 		D3CE173C18B34DB100414807 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D3CE174218B34DB200414807 /* TestIPATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestIPATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CE174318B34DB200414807 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D3CE174B18B34DB200414807 /* TestIPATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestIPATests-Info.plist"; sourceTree = "<group>"; };
-		D3CE174D18B34DB200414807 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D3CE174F18B34DB200414807 /* TestIPATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestIPATests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				D3CE172718B34DB100414807 /* TestIPA */,
-				D3CE174918B34DB200414807 /* TestIPATests */,
 				D3CE172018B34DB100414807 /* Frameworks */,
 				D3CE171F18B34DB100414807 /* Products */,
 			);
@@ -135,24 +129,6 @@
 				D3CE172A18B34DB100414807 /* InfoPlist.strings */,
 				D3CE172D18B34DB100414807 /* main.m */,
 				D3CE172F18B34DB100414807 /* TestIPA-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D3CE174918B34DB200414807 /* TestIPATests */ = {
-			isa = PBXGroup;
-			children = (
-				D3CE174F18B34DB200414807 /* TestIPATests.m */,
-				D3CE174A18B34DB200414807 /* Supporting Files */,
-			);
-			path = TestIPATests;
-			sourceTree = "<group>";
-		};
-		D3CE174A18B34DB200414807 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D3CE174B18B34DB200414807 /* TestIPATests-Info.plist */,
-				D3CE174C18B34DB200414807 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -244,7 +220,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3CE174E18B34DB200414807 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3CE175018B34DB200414807 /* TestIPATests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,14 +269,6 @@
 				D3CE173418B34DB100414807 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D3CE174C18B34DB200414807 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3CE174D18B34DB200414807 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -471,6 +437,7 @@
 				D3CE175518B34DB200414807 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3CE175618B34DB200414807 /* Build configuration list for PBXNativeTarget "TestIPATests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +446,7 @@
 				D3CE175818B34DB200414807 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
